@@ -1,0 +1,201 @@
+/* style.css - Paleta litúrgica: Roxo + Dourado + Branco */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4a148c; /* Roxo escuro */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+header .brasao {
+  width: 110px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+nav {
+  background-color: #6a1b9a; /* Roxo médio */
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fbc02d; /* Dourado */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: white;
+  border-left: 5px solid #fbc02d;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #4a148c;
+  border-bottom: 2px solid #fbc02d;
+  padding-bottom: 5px;
+}
+
+footer {
+  background-color: #4a148c;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.escala-container {
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 500px;
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.escala-container h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.botao-drive {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #2c7be5;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.botao-drive:hover {
+  background-color: #1a5fb4;
+}
+
+section a {
+  display: inline-block;
+  background-color: #fbc02d;
+  color: #4a148c;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+section a:hover {
+  background-color: #fdd835;
+}
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.video-box {
+  width: 500px;
+  text-align: center;
+}
+
+.video-box iframe {
+  width: 100%;
+  height: 280px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  header {
+    padding: 30px 10px;
+  }
+
+  header .brasao {
+    position: static;
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+    display: block;
+  }
+
+  header h1 {
+    padding: 0;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .video-box {
+    width: 100%;
+  }
+
+  .video-box iframe {
+    height: 220px;
+  }
+
+  .escala-container {
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+}
+
+.objeto-liturgico {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-left: 5px solid #fbc02d;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.objeto-liturgico img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 15px auto;
+  border-radius: 8px;
+}
