@@ -181,6 +181,15 @@ section a:hover {
     margin: 1rem auto;
     padding: 1rem;
   }
+
+  section a {
+  display: block;
+  margin: 15px auto 0 auto;
+  width: 80%;
+  max-width: 300px;
+  font-size: 1rem;
+}
+
 }
 
 .objeto-liturgico {
@@ -209,13 +218,47 @@ section a {
   display: inline-block;
   background-color: #fbc02d;
   color: #4a148c;
-  padding: 12px 30px;
-  margin: 15px auto 0 auto;
+  padding: 12px 28px;
+  margin-top: 15px;
   text-decoration: none;
   font-weight: bold;
   border-radius: 8px;
-  transition: background-color 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+  max-width: 300px;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body,
+  section,
+  header,
+  nav,
+  footer,
+  a,
+  h1, h2, h3, h4, h5, h6 {
+    background-color: unset !important;
+    color: unset !important;
+    filter: none !important;
+  }
+
+  a {
+    background-color: #fbc02d !important;
+    color: #4a148c !important;
+  }
+
+  section {
+    background-color: white !important;
+  }
+
+  nav {
+    background-color: #6a1b9a !important;
+  }
+
+  header,
+  footer {
+    background-color: #4a148c !important;
+  }
 }
 
