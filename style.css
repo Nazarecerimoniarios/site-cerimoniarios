@@ -199,3 +199,15 @@ section a:hover {
   margin: 15px auto;
   border-radius: 8px;
 }
+
+ section {
+    padding: 15px;
+    margin: 15px 10px;
+  }
+
+  section a {
+    display: block;
+    width: 7%;
+    text-align: center;
+    font-size: 1rem;
+  }
