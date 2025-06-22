@@ -205,9 +205,17 @@ section a:hover {
     margin: 15px 10px;
   }
 
-  section a {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 1rem;
-  }
+section a {
+  display: inline-block;
+  background-color: #fbc02d;
+  color: #4a148c;
+  padding: 12px 30px;
+  margin: 15px auto 0 auto;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
