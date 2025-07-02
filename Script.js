@@ -1,4 +1,4 @@
-let currentIndex = 0;
+ let currentIndex = 0;
 
 function moveSlide(direction) {
   const slides = document.querySelector('.slides');
@@ -16,4 +16,6 @@ function moveSlide(direction) {
   const offset = -currentIndex * 100;
   slides.style.transform = `translateX(${offset}%)`;
 }
-setInterval(() => moveSlide(1), 4000); // muda a cada 3 segundos
+setInterval(() => moveSlide(1), 4000); // muda a cada 4 segundos 
+
+
